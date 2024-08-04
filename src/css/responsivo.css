@@ -1,0 +1,167 @@
+@media (max-width: 1280px) {
+  body {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 1020px) {
+  body {
+    width: 100%;
+    padding: 0;
+  }
+
+  .principal_left img {
+    max-width: 550px;
+    height: auto;
+  }
+  .principal_right,
+  .social_bars {
+    margin-left: -140px;
+  }
+
+  .linguagens img {
+    margin: 80px 40px 0px;
+  }
+
+  .projetos {
+    display: flex;
+  }
+
+  .projetos-catalogo {
+    grid-column-gap: 120px;
+    justify-content: center;
+    grid-template-columns: 200px 200px 300px;
+  }
+
+  #project-card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .checkbtn {
+    display: block;
+  }
+
+  nav.menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav.menu ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav.menu ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  nav.menu ul li a {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  #check:checked ~ nav.menu {
+    display: flex;
+  }
+
+  .principal_left {
+    display: none;
+  }
+
+  .principal_right {
+    display: flex;
+  }
+
+  .principal_right,
+  .social_bars {
+    margin-left: 0;
+  }
+
+  .conteudo_right ul {
+    display: flex;
+    gap: 10px;
+  }
+
+  .sobre-mim_foto {
+    display: flex;
+  }
+
+  .sobre-mim_foto img {
+    width: 200px;
+    max-width: 175px;
+    height: 200px;
+    margin-right: 10px;
+    background-color: red;
+  }
+
+  .sobre-min_descricao h1 {
+    font-size: 20px;
+  }
+
+  .curriculo-button {
+    position: absolute;
+    transform: translate(300px, -160px);
+  }
+
+  .linguagens img {
+    margin: 40px 10px 0;
+  }
+
+  .projetos-catalogo {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 300px 300px;
+  }
+
+  #project-card {
+    width: 100%;
+  }
+
+  .projetos-catalogo h2 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+  }
+
+  .projetos-catalogo p {
+    display: none;
+  }
+
+  .projetos-card-1,
+  .projetos-card-2,
+  .projetos-card-3,
+  .projetos-card-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(223, 221, 221);
+    border-radius: 2rem;
+    border: 0.3rem solid #acacac;
+    transition: transform 0.5s ease-in-out, z-index 0.5s ease-in-out;
+  }
+
+  .sem-imagem {
+    width: 100%;
+    height: 140px;
+  }
+
+  .icon_bar {
+    width: 0;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 51px;
+    border-radius: 3px;
+    transition: all 0.3s linear;
+    display: none;
+    align-items: center;
+  }
+}

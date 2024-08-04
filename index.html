@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Raphael Gurgel">
+    <meta name="description" content="Portfólio do desenvolvedor front-end Raphael Gurgel da Costa">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <title>Raphael Gurgel</title>
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500&family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Raphael <span>Gurgel</span></h1>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="bi bi-list"></i>
+        </label>
+        <nav class="menu">
+            <ul> 
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li> 
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <section class="principal" id="home">
+                <div class="principal_left">
+                    <img src="./src/imagens/Imagem de Criaçao web.png" alt="Ilustração de um desenvolvedor montando um site">
+                </div>
+                <div class="conteudo_right">
+                    <div class="principal_right">
+                        <h1>Olá eu sou<br><span>Raphael Gurgel</span><br>Desenvolvedor Web</h1>
+                      </div>
+                      <div class="social_bars">
+                        <ul>
+                          <li class="linkedin">
+                            <i class="bi bi-linkedin"></i>
+                            <div class="icon_bar"><p>Linkedin</p></div>
+                          </li>
+                          <li class="github">
+                            <i class="bi bi-github"></i>
+                            <div class="icon_bar"><p>Github</p></div>
+                          </li>
+                        </ul>
+                      </div>
+            </section>
+            <section class="sobre" id="sobre"   data-anime="js-scroll">
+                <div class="sobre-mim_foto">
+                    <img src="./src/imagens/Raphael Foto.jpg" alt="Uma selfie de Raphael Gurgel">
+                </div>
+                <div class="sobre-mim_right">
+                    <div class="sobre-mim_descricao">
+                        <h1>Sobre mim</h1>
+                        <h2>Nova Iguaçu, Rio de Janeiro</h2>
+                        <p>Estudante de Ciência da Computação, focado no aperfeiçoamento profissional. Foco no desenvolvimento fullstack, sempre em busca de novos conhecimentos. Me mantenho atualizado através de redes do LinkedIn e github.</p>
+                    </div>
+                    <div class="sobre-mim_descricao-buttons">
+                        <a href="./src/assets/Raphael Gurgel - Currículo.pdf" download>
+                            <div class="curriculo-button">
+                                <ul>
+                                  <li class="curriculo-icon">
+                                    <i class="bi bi-download"></i>
+                                    <div class="curriculo-texto"><p>Currículo</p></div>
+                                  </li>
+                                </ul>
+                              </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="experiencia" id="experiencia">
+                <h1>Experiência</h1>
+                <div class="linguagens">
+                    <div class="html-icon">
+                        <img src="./src/imagens/html-5.png" alt="Logo do HTML">
+                    </div>
+                    <div class="css-icon">
+                        <img src="./src/imagens/css-3.png" alt="Logo do CSS">
+                    </div>
+                    <div class="js-icon">
+                        <img src="./src/imagens/javascript.png" alt="Logo do JavaScript">
+                    </div>
+                </div>
+            </section>
+            <section class="projetos" id="projetos">
+                <h1>Projetos</h1>
+                <div class="projetos-catalogo">
+                    <div class="projetos-card-1" id="project-card">
+                        <img src="./src/imagens/Aether e Lumine.jpg" alt="Imagem do Projeto Genshin Impact Regions">
+                        </a>
+                        <h2>Genshin Impact - Regiões</h2>
+                        <p>Projeto desenvolvido a partir do curso Dev em Dobro</p>
+                        <span>
+                            Tecnologias usadas no projeto: HTML, CSS, JavaScript
+                        </span>
+                        <div class="projetos-card-buttons">
+                            <ul>
+                                <a href="https://ozymandiasbrando.github.io/genshin-impact-regions/">
+                                    <li>Visualizar</li>
+                                </a>
+                                <a href="https://github.com/OzymandiasBrando/genshin-impact-regions.git">
+                                    <li>Repertório</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="projetos-card-2" id="project-card">
+                        <img src="./src/imagens/Thumb do portfolio.jpg" alt="Imagem o Projeto de Portfolio">
+                        </a>
+                        <h2>Portfolio</h2>
+                        <p>Um portfolio pessoal sobre mim e meus projetos.</p>
+                        <span>
+                            Tecnologias usadas no projeto: HTML, CSS, JavaScript
+                        </span>
+                        <div class="projetos-card-buttons">
+                            <ul>
+                                <a href="https://ozymandiasbrando.github.io/genshin-impact-regions/">
+                                    <li>Visualizar</li>
+                                </a>
+                                <a href="https://github.com/OzymandiasBrando/genshin-impact-regions.git">
+                                    <li>Repertório</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="projetos-card-3" id="project-card">
+                        <div class="sem-imagem"></div>
+                        </a>
+                        <h2>Criando...</h2>
+                        <p>Trabalhando em um novo projeto.</p>
+                        <span>
+                            Aguarde
+                        </span>
+                        <div class="projetos-card-buttons">
+                            <ul>
+                                <a href="https://github.com/OzymandiasBrando">
+                                    <li>Visualizar</li>
+                                </a>
+                                <a href="https://github.com/OzymandiasBrando">
+                                    <li>Repertório</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contato" id="contato">
+                <footer>
+                    <div class="contatos">
+                        <div class="telefone">
+                            <p><i class="bi bi-telephone"> (21) 98033-1325</i></p>
+                        </div>
+                        <div class="email">
+                            <p><i class="bi bi-gmail"></i></p>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </main>
+        <script src="./src/index.js"></script>
+</body>
+</html>
