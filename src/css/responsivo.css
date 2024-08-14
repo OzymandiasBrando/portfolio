@@ -87,6 +87,11 @@
     gap: 10px;
   }
 
+  .sobre-mim_descricao p {
+    width: 350px;
+    font-size: 1.2rem;
+  }
+
   .sobre-mim_foto {
     display: flex;
   }
@@ -104,13 +109,17 @@
   }
 
   .linguagens img {
+    width: 140px;
+    height: auto;
     margin: 40px 10px 0;
   }
 
   .projetos-catalogo {
     display: grid;
-    grid-column-gap: 20px;
     grid-template-columns: 300px 300px;
+    overflow-y: scroll;
+    height: 600px;
+    grid-column-gap: 20px;
   }
 
   #project-card {
