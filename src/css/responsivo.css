@@ -103,11 +103,6 @@
     font-size: 20px;
   }
 
-  .curriculo-button {
-    position: absolute;
-    transform: translate(300px, -160px);
-  }
-
   .linguagens img {
     margin: 40px 10px 0;
   }
