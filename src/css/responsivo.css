@@ -73,10 +73,6 @@
     display: none;
   }
 
-  .principal_right {
-    display: flex;
-  }
-
   .principal_right,
   .social_bars {
     margin-left: 0;
@@ -87,43 +83,73 @@
     gap: 10px;
   }
 
+  .sobre {
+    padding: 5px;
+  }
+
   .sobre-mim_descricao p {
     width: 350px;
     font-size: 1.2rem;
   }
 
+  .sobre-mim_descricao h1 {
+    font-size: 2rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .sobre-mim_descricao h2 {
+    font-size: 1.3rem;
+  }
+
   .sobre-mim_foto {
-    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 57vh);
   }
 
   .sobre-mim_foto img {
-    width: 200px;
-    max-width: 175px;
-    height: 200px;
+    width: 100px;
+    max-width: 255px;
+    height: auto;
     margin-right: 10px;
     background-color: red;
   }
 
-  .sobre-min_descricao h1 {
-    font-size: 20px;
+  .curriculo-texto {
+    width: 150px;
+    background-color: red;
+  }
+
+  .curriculo-texto p {
+    opacity: 1;
   }
 
   .linguagens img {
-    width: 140px;
+    width: 130px;
     height: auto;
     margin: 40px 10px 0;
   }
 
   .projetos-catalogo {
     display: grid;
-    grid-template-columns: 300px 300px;
-    overflow-y: scroll;
-    height: 600px;
+    grid-template-columns: 300px;
+    overflow-x: scroll;
+    height: 100vh;
     grid-column-gap: 20px;
   }
 
   #project-card {
     width: 100%;
+  }
+
+  .projetos {
+    display: block;
+  }
+
+  .projetos h1 {
+    margin-top: 20px;
   }
 
   .projetos-catalogo h2 {
@@ -134,22 +160,6 @@
 
   .projetos-catalogo p {
     display: none;
-  }
-
-  .projetos-card-1,
-  .projetos-card-2,
-  .projetos-card-3,
-  .projetos-card-4 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 200px;
-    height: 300px;
-    padding: 20px;
-    background-color: rgb(223, 221, 221);
-    border-radius: 2rem;
-    border: 0.3rem solid #acacac;
-    transition: transform 0.5s ease-in-out, z-index 0.5s ease-in-out;
   }
 
   .sem-imagem {
@@ -167,5 +177,9 @@
     transition: all 0.3s linear;
     display: none;
     align-items: center;
+  }
+
+  .contato {
+    display: none;
   }
 }
